@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="coffee-script-1.6.3.js"  type="text/javascript"></script>
+		<script src="jquery-1.9.1.min.js"  type="text/javascript"></script>
+	</head>
+	<body>
+		<a href=#> Hello, coffeescript! </a>
+
+		<script type="text/coffeescript">
+			coffee = ->
+				alert "a sip of coffee"
+
+			$ ->
+			 	$("a").click ->
+			 		coffee()
+		</script>
+
+	</body>
+</html>
